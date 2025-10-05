@@ -1,2 +1,2 @@
 #!/bin/bash
-IFS=$'\n' read -d '' -a lines; for ((i=0;i<${#lines[@]};i+=2)); do echo "${lines[i]}"; done
+while read LINE; do echo "$LINE"; read SKIPPED; done
