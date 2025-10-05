@@ -1,4 +1,2 @@
-# safe example that does something visible and harmless
 source ./0-alias myls 'ls -la'
-myls       # runs the alias
-\ls        # runs the system ls (bypassing any alias)
+# myls       # runs the alias  #\ls        # runs the system ls (bypassing any alias)
